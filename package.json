@@ -1,0 +1,35 @@
+{
+  "name": "7702-ready",
+  "version": "1.0.0",
+  "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorizodrago/7702-ready.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thorizodrago/7702-ready/issues"
+  },
+  "homepage": "https://github.com/Thorizodrago/7702-ready#readme",
+  "dependencies": {
+    "@tanstack/react-query": "^5.87.1",
+    "connectkit": "^1.9.1",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
+    "viem": "^2.37.3",
+    "wagmi": "^2.16.9"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  }
+}
